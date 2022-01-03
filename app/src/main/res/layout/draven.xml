@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:backgroundTint="#03A9F4"
+    tools:context=".Draven">
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:id="@+id/dravenlayout"
+        android:layout_height="match_parent"
+        android:background="#65DCBF"
+        android:backgroundTint="#2E3639"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="53dp"
+            android:text="@string/draven"
+            android:textAlignment="center"
+            android:textColor="#4DB6AC"
+            android:textSize="48sp"
+            android:textStyle="bold" />
+
+
+        <ImageView
+            android:id="@+id/imageViewdraven"
+            android:layout_width="match_parent"
+            android:layout_height="158dp"
+            android:layout_marginTop="20dp"
+            android:contentDescription="TODO"
+            app:srcCompat="@drawable/league_infobox_draven"
+            tools:ignore="ImageContrastCheck" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="In Noxus Crest icon.png Noxus, warriors known as 01NX053-full.png reckoners face one another in arenas where blood is spilled and strength tested—but none has ever been as celebrated as Draven Draven. A former soldier, he found that the crowds uniquely appreciated his flair for the dramatic, not to mention the spray of blood from each of his spinning axes spinning axes. Addicted to the spectacle of his own brash perfection, Draven has sworn to defeat whomever he must to ensure that his name is chanted throughout the empire forever more."
+            android:textColor="#EFE8E8"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Abilities :"
+            android:textColor="#F44336"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <ListView
+            android:id="@+id/listview"
+            android:layout_width="match_parent"
+            android:layout_height="800dp"
+            android:layout_marginTop="10dp"
+
+            />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="20dp"
+            android:text="view jinx"
+            android:fontFamily="serif-monospace"
+            android:textColor="@color/black"
+            android:backgroundTint="@color/light_blue_600"
+            />
+
+
+    </LinearLayout>
+</ScrollView>

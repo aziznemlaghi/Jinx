@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:backgroundTint="#03A9F4"
+    tools:context=".MainActivity2">
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:id="@+id/jinxlayout"
+        android:layout_height="match_parent"
+        android:background="#65DCBF"
+        android:backgroundTint="#2E3639"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="53dp"
+            android:text="Jinx"
+            android:textAlignment="center"
+            android:textColor="#4DB6AC"
+            android:textSize="48sp"
+            android:textStyle="bold" />
+
+
+        <ImageView
+            android:id="@+id/imageViewjinx"
+            android:layout_width="match_parent"
+            android:layout_height="158dp"
+            android:layout_marginTop="20dp"
+            android:contentDescription="TODO"
+            app:srcCompat="@drawable/tumblr_a889477f77b8d8dcf92d3b9d65c3d982_3bb9751c_540"
+            tools:ignore="ImageContrastCheck" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="A manic and impulsive criminal from Zaun Crest icon.png Zaun, Jinx Jinx lives to wreak havoc without care for the consequences. With an arsenal of deadly weapons, she unleashes the loudest blasts and brightest explosions to leave a trail of mayhem and panic in her wake. Jinx despises boredom and gleefully brings her own chaotic brand of pandemonium wherever she goes."
+            android:textColor="#EFE8E8"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Abilities :"
+            android:textColor="#F44336"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <ListView
+            android:id="@+id/listview"
+            android:layout_width="match_parent"
+            android:layout_height="800dp"
+            android:layout_marginTop="10dp"
+
+            />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="20dp"
+            android:text="View draven"
+            android:fontFamily="serif-monospace"
+            android:backgroundTint="@color/light_blue_600"
+            />
+
+
+    </LinearLayout>
+</ScrollView>

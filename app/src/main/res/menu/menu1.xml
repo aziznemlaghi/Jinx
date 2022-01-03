@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item android:id="@+id/upload_item"
+        android:title="Settings" >
+        <menu>
+            <item android:id="@+id/parametres"
+                android:title="Parametes" />
+            <item android:id="@+id/langues"
+                android:title="langue"
+                />
+
+        </menu>
+    </item>
+    <item
+        android:id="@+id/bgc"
+        android:title="background">
+
+        <menu>
+            <item
+                android:id="@+id/bgblack"
+                android:title="black"/>
+
+            <item android:id="@+id/bggreen"
+                android:title="green"/>
+        </menu>
+
+    </item>
+    <item android:id="@+id/Quitter"
+        android:title="Quitter" />
+</menu>
